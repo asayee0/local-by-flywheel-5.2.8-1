@@ -15,6 +15,7 @@ depends=(
 )
 options=('emptydirs')
 source=("https://local-by-flywheel-flywheel.netdna-ssl.com/releases/5-2-8/local-5-2-8-linux.rpm")
+sha1sums('e6dff99ec27310490ee774d5166883f0b32d235f')
 PKGEXT=.tar
 
 package() {
